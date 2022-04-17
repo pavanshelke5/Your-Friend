@@ -1,0 +1,9 @@
+str=input('Please give input String')
+xyz=[]
+xyz=str.split(' ')
+PASSCODE=''
+for i in xyz:
+    b=i[0:1]
+    PASSCODE=PASSCODE+b
+
+print(PASSCODE)
